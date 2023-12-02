@@ -1,0 +1,21 @@
+{
+    "name": "Rust dev",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "lldb.executable": "/usr/bin/lldb",
+                "files.watcherExclude": {
+                    "**/targer/**": true
+                },
+                "rust-analyzer.checkOnSave.command": "clippy"
+            },
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "vadimcn.vscode-lldb",
+                "tamasfe.even-better-toml"
+            ]
+        }
+    }
