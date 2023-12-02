@@ -1,29 +1,34 @@
 My solutions for [Advent of Code 2023](https://adventofcode.com/2023), written in Rust.
 
-Todo
-- [x] Automate result on README
-- [ ] Try [aho_corasick](https://crates.io/crates/aho-corasick) on the day 1 part2 case
 
+
+Todo
+- [ ] Automate result on README
+
+
+Results:
 ```
 Day 1 - Trebuchet?!
 Part one
-Timing: 92us
+Timing: 1ms
 Result:
  54081
 
 Part two
-Timing: 665us
+Timing: 7ms
 Result:
  54649
 
 Day 2 - Cube Conundrum
 Part one
-Timing: 179us
+Timing: 0ms
 Result:
  3059
 
 Part two
-Timing: 116us
+Timing: 0ms
 Result:
  65371
+
 ```
+

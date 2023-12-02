@@ -32,8 +32,8 @@ fn main() {
 
             let start = Instant::now();
             let result = solution(&input);
-            let duration = start.elapsed().as_millis();
-            println!("Timing: {duration}ms");
+            let duration = start.elapsed().as_micros();
+            println!("Timing: {duration}us");
             println!("Result:\n {result}");
             println!();
         };
