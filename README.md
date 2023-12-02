@@ -13,6 +13,17 @@ Timing: 7ms
 Result:
  54649
 
+Day 2 - Cube Conundrum
+Part one
+Timing: 0ms
+Result:
+ 3059
+
+Part two
+Timing: 0ms
+Result:
+ 65371
+
 ```
 
 Todo
