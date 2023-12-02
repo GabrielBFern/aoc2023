@@ -7,23 +7,23 @@ Todo
 ```
 Day 1 - Trebuchet?!
 Part one
-Timing: 92us
+Timing: 119us
 Result:
  54081
 
 Part two
-Timing: 665us
+Timing: 698us
 Result:
  54649
 
 Day 2 - Cube Conundrum
 Part one
-Timing: 179us
+Timing: 127us
 Result:
  3059
 
 Part two
-Timing: 116us
+Timing: 98us
 Result:
  65371
 ```

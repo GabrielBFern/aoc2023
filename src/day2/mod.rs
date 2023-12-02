@@ -140,16 +140,13 @@ impl Filter {
 }
 
 impl Game {
-    fn lowest_possible_set(self) -> (usize, usize, usize) {
+    fn lowest_possible_set(self) -> [usize; 3] {
         self.draws
             .into_iter()
             .flat_map(|d| d.sequence)
-            .fold((0, 0, 0), |mut acc, d| {
-                match d.colour {
-                    Colour::Red => acc.0 = acc.0.max(d.qty),
-                    Colour::Blue => acc.1 = acc.1.max(d.qty),
-                    Colour::Green => acc.2 = acc.2.max(d.qty),
-                }
+            .fold([0usize; 3], |mut acc, d| {
+                let i = d.colour as usize;
+                acc[i] = acc[i].max(d.qty);
                 acc
             })
     }
@@ -207,7 +204,7 @@ pub(crate) mod part2 {
         games
             .into_iter()
             .map(Game::lowest_possible_set)
-            .map(|d| d.0 * d.1 * d.2)
+            .map(|d| d.iter().product::<usize>())
             .sum::<usize>()
             .to_string()
     }
