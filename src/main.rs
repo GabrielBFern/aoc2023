@@ -3,6 +3,7 @@ use std::fmt::Display;
 mod day1;
 mod day2;
 mod day3;
+mod day4;
 
 macro_rules! day {
     ($name:expr, $day:ident) => {
@@ -23,6 +24,7 @@ fn main() {
         day!("Trebuchet?!", day1),
         day!("Cube Conundrum", day2),
         day!("Gear Ratios", day3),
+        day!("Scratchcards", day4),
     ];
 
     for (num, (name, part1, part2)) in days.into_iter().enumerate() {
