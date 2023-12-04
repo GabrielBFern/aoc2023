@@ -7,23 +7,34 @@ Todo
 ```
 Day 1 - Trebuchet?!
 Part one
-Timing: 119us
+Timing: 91us
 Result:
  54081
 
 Part two
-Timing: 698us
+Timing: 652us
 Result:
  54649
 
 Day 2 - Cube Conundrum
 Part one
-Timing: 127us
+Timing: 148us
 Result:
  3059
 
 Part two
-Timing: 98us
+Timing: 113us
 Result:
  65371
+
+Day 3 - Gear Ratios
+Part one
+Timing: 226us
+Result:
+ 528799
+
+Part two
+Timing: 125us
+Result:
+ 84907174
 ```

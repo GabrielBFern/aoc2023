@@ -2,6 +2,7 @@ use std::fmt::Display;
 
 mod day1;
 mod day2;
+mod day3;
 
 macro_rules! day {
     ($name:expr, $day:ident) => {
@@ -18,8 +19,11 @@ fn main() {
 
     use std::fs;
 
-    let days: Vec<(&str, SolverFn, SolverFn)> =
-        vec![day!("Trebuchet?!", day1), day!("Cube Conundrum", day2)];
+    let days: Vec<(&str, SolverFn, SolverFn)> = vec![
+        day!("Trebuchet?!", day1),
+        day!("Cube Conundrum", day2),
+        day!("Gear Ratios", day3),
+    ];
 
     for (num, (name, part1, part2)) in days.into_iter().enumerate() {
         let num = num + 1;
