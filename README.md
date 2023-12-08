@@ -9,56 +9,56 @@ Todo
 ```
 Day 1 - Trebuchet?!
 Part one
-Timing: 94us
+Timing: 99us
 Result:
  54081
 
 Part two
-Timing: 652us
+Timing: 661us
 Result:
  54649
 
 Day 2 - Cube Conundrum
 Part one
-Timing: 121us
+Timing: 126us
 Result:
  3059
 
 Part two
-Timing: 151us
+Timing: 100us
 Result:
  65371
 
 Day 3 - Gear Ratios
 Part one
-Timing: 228us
+Timing: 224us
 Result:
  528799
 
 Part two
-Timing: 133us
+Timing: 126us
 Result:
  84907174
 
 Day 4 - Scratchcards
 Part one
-Timing: 315us
+Timing: 399us
 Result:
  23235
 
 Part two
-Timing: 315us
+Timing: 442us
 Result:
  5920640
 
 Day 5 - If You Give A Seed A Fertilizer
 Part one
-Timing: 47us
+Timing: 39us
 Result:
  486613012
 
 Part two
-Timing: 100us
+Timing: 96us
 Result:
  56931769
 
@@ -69,7 +69,18 @@ Result:
  128700
 
 Part two
-Timing: 8198us
+Timing: 5781us
 Result:
  39594072
+
+Day 7 - Camel Cards
+Part one
+Timing: 586us
+Result:
+ 251545216
+
+Part two
+Timing: 552us
+Result:
+ 250384185
 ```

@@ -6,6 +6,7 @@ mod day3;
 mod day4;
 mod day5;
 mod day6;
+mod day7;
 
 macro_rules! day {
     ($name:expr, $day:ident) => {
@@ -29,6 +30,7 @@ fn main() {
         day!("Scratchcards", day4),
         day!("If You Give A Seed A Fertilizer", day5),
         day!("Wait For It", day6),
+        day!("Camel Cards", day7),
     ];
 
     for (num, (name, part1, part2)) in days.into_iter().enumerate() {
